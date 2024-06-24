@@ -12,20 +12,10 @@ Screenshot available on its [website](https://getgammy.com).
 - Backlight control
 ## Installation
 
-### Windows
-#### Requirements
-[Visual C++ 2017](https://aka.ms/vs/16/release/vc_redist.x64.exe)
-
-#### Download
-Get it [here](https://github.com/Fushko/gammy/releases) or [here](https://getgammy.com/downloads.html).
-Unpack and run it, no installation required.
-
-#### Important!
-If the sliders don't work beyond a certain value, start the app in admin mode once, then restart the system.
-
-This disables a limit that Windows imposes on how much a program can change screen values.
-
 ### Linux
+#### Releases
+- (Coming soon)
+
 #### Building from source
 Requirements:
 - g++ or Clang compiler with C++17 support
