@@ -13,7 +13,7 @@ Screenshot available on its [website](https://getgammy.com).
 ## Installation
 
 ### Linux
-#### Releases
+#### Packages
 - (Coming soon)
 
 #### Building from source
@@ -43,42 +43,7 @@ On GNOME, the Qt5 Configuration Tool is recommended to improve UI integration:
 sudo apt install qt5ct
 ```
 
-### Packages
 
-#### Arch
-AUR packages are available:
-- Stable: [`gammy`](https://aur.archlinux.org/packages/gammy/)
-- Development: [`gammy-git`](https://aur.archlinux.org/packages/gammy-git/)
-
-#### Gentoo
-
-On Gentoo-based distros, Gammy is included in GURU Gentoo overlay:
-```bash
-# emerge the tool to enable the overlay
-sudo emerge -av app-eselect/eselect-repository
-# Setup the GURU overlay
-sudo eselect repository enable guru
-sudo emaint sync -r guru
-# Finally emerge gammy
-sudo emerge -av --autounmask x11-misc/gammy
-```
-
-### FreeBSD
-On FreeBSD, Gammy can be installed from `ports`:
-
-```sh
-% cd /usr/ports
-# update your ports branch to the latest, with your preferred method
-% cd accessibility/gammy
-% sudo make install-missing-packages
-% sudo make package
-% pkg install ./work/pkg/gammy*
-```
-
-or from `pkg`, as soon as [accessibility/gammy](https://www.freshports.org/accessibility/gammy) hits your (quarterly) repo:
-
-```
-% sudo pkg install -y gammy
 ```
 
 ## Usage
